@@ -46,7 +46,7 @@ namespace Prague_Parking_V2.Classes
                 File.WriteAllText(FilepathAndName(configName), JsonSerialize(GarageConfig.CurrentValues));
 
             string readMeName = ReadmeFileName();
-            if (File.Exists(readMeName))
+            if (!File.Exists(FilepathAndName(readMeName)))
                 File.WriteAllText(FilepathAndName(readMeName), JsonSerialize(new HowToConfig()));
 
             string entriesName = ParkingEntriesFileName();
