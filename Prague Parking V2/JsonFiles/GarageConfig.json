@@ -1,0 +1,16 @@
+{
+  "MaxAllowedParkingSpots": 100,
+  "ParkingSpotsSize": 10,
+  "VehicleConfigList": [
+    {
+      "VehicleType": "Car",
+      "VehicleSize": 10,
+      "VehiclePrice": 20
+    },
+    {
+      "VehicleType": "MC",
+      "VehicleSize": 5,
+      "VehiclePrice": 20
+    }
+  ]
+}
